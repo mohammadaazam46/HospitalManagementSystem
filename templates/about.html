@@ -1,0 +1,61 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<section id="about">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="section-title">
+						<div class="section-subtitle">About Us</div>
+						<h2 class="section-main-title">
+							All About <strong>Hospitals</strong>
+						</h2>
+					</div>
+
+					<div class="about-item">
+						<p>hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, both medical and surgical, of the sick and the injured; and for their housing during this process.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about-1.jpg' %}">
+				 </div>
+				</div>
+            </div>
+
+			<div class="row mt-5">
+				<div class="col-sm-4">
+				 <div class="about-boxx">
+				   <img src="{% static 'images/about1.jpg' %}">
+				 </div>
+				</div>
+				<div class="col-sm-6 offset-sm-2">
+				<div class="about-item mt-5">
+					<h4><span style="color:rgba(255, 162, 0, 0.355)">All About</span> <span style="color:rgb(0, 13, 128)"><b>Doctor & Nourse</b></span></h4>
+						<p>Doctors perform procedures, such as surgeries, while nurses may assist with those surgeries (e.g. nurse anesthetist) and care for the patient following the operation.</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row mt-5">
+				<div class="col-sm-6">
+				<div class="about-item mt-5">
+					<h4><span style="color:rgb(47, 17, 39)">All About</span> <span style="color:rgba(255, 0, 191, 0.534)"><b>Sweeper</b></span></h4>
+						<p>A sweeper in general is a person who sweeps an area like houses, workplaces, streets, or other places. Street sweepers use equipment like a broom.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about2.jpg' %}">
+				 </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock%}
